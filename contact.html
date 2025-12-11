@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – TCET ACM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Page transition overlay -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- Navbar -->
+  <header class="nav-blur">
+    <div class="container nav-inner">
+      <div class="nav-left">
+        <div class="logo-circle">
+          <img src="acm-logo.jpg" class="logo-img" alt="TCET ACM Logo" />
+        </div>
+
+        <div class="logo-text">
+          <span>TCET ACM</span>
+          <span>Student Chapter</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="projects.html">Achievements</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" style="color:#fff;">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html">
+          <button class="btn btn-ghost">
+            <i class="ri-mail-line"></i>
+            Reach TCET ACM
+          </button>
+        </a>
+
+        <button class="nav-menu-btn" id="navToggle">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="projects.html">Achievements</a>
+      <a href="team.html">Team</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+
+      <button class="btn btn-primary" style="width:100%;margin-top:6px;">
+        Reach TCET ACM
+      </button>
+    </div>
+  </header>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="neon-spinner"></div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="container contact-page-wrapper">
+
+      <div class="section-label">
+        <i class="ri-mail-send-line"></i>
+        Reach TCET ACM
+      </div>
+
+      <h2 class="section-title">Let’s talk ideas, events and collabs.</h2>
+      <p class="section-subtitle">
+        Whether you’re a student, faculty member or external partner — this is the place to reach the TCET ACM team.
+      </p>
+
+      <!-- Small info pills row -->
+      <div class="contact-pill-row reveal">
+        <span class="chip"><i class="ri-building-line"></i> TCET Campus, Kandivali (E)</span>
+        <span class="chip"><i class="ri-time-line"></i> Active on weekdays • 10 AM – 5 PM</span>
+        <span class="chip"><i class="ri-chat-1-line"></i> Tech talks • Events • Collabs</span>
+      </div>
+
+      <!-- Main Layout -->
+      <div class="grid contact-grid">
+
+        <!-- LEFT: MAIN CONTACT CARD -->
+        <div class="reveal">
+          <div class="card contact-card-neon">
+            <div class="card-header">
+              <div>
+                <div class="card-title">Talk to the TCET ACM team</div>
+                <p class="card-body">
+                  Drop us a mail, ping us on socials or catch us in the CS/IT department. We’re always up for
+                  <strong>ideas, events and collaborations.</strong>
+                </p>
+              </div>
+              <div class="pill-icon">
+                <i class="ri-sparkling-2-line"></i>
+              </div>
+            </div>
+
+            <ul class="contact-info-list">
+              <li>
+                <i class="ri-mail-line"></i>
+                <span>
+                  <strong>Email</strong><br />
+                  acmtcet8@gmail.com
+                </span>
+              </li>
+              <li>
+                <i class="ri-map-pin-2-line"></i>
+                <span>
+                  <strong>On campus</strong><br />
+                  TCET • 2nd Floor • CS/IT Staffroom
+                </span>
+              </li>
+            </ul>
+
+            <div class="contact-uses">
+              <p class="contact-uses-label">You can reach us for:</p>
+              <ul>
+                <li><i class="ri-checkbox-circle-line"></i> Event partnerships & tech talks</li>
+                <li><i class="ri-checkbox-circle-line"></i> Student chapter activities & queries</li>
+                <li><i class="ri-checkbox-circle-line"></i> Hackathons, workshops & bootcamps</li>
+              </ul>
+            </div>
+
+            <div class="contact-social-quick">
+              <span>Direct links:</span>
+              <div class="contact-social-chips">
+                <a class="chip" href="https://www.instagram.com/tcet_acm" target="_blank">
+                  <i class="ri-instagram-line"></i> Instagram
+                </a>
+                <a class="chip" href="https://www.linkedin.com/in/acmtcet" target="_blank">
+                  <i class="ri-linkedin-fill"></i> LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: MAP + HOURS STACK -->
+        <div class="reveal contact-right-stack">
+
+          <!-- MAP CARD -->
+          <div class="card contact-map-card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">Find us on the map</div>
+                <p class="card-body">Located at Thakur College of Engineering & Technology, Kandivali (E).</p>
+              </div>
+              <div class="pill-icon">
+                <i class="ri-map-pin-line"></i>
+              </div>
+            </div>
+
+            <div class="map-embed-wrapper">
+              <!-- You can replace src with your exact TCET map embed later -->
+              <iframe
+                class="map-embed"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.748370571548!2d72.874!3d19.207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEyJzI1LjIiTiA3MsKwNTInMjYuNCJF!5e0!3m2!1sen!2sin!4v1700000000000">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- OFFICE HOURS CARD -->
+          <div class="card office-hours-card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">When are we usually active?</div>
+                <p class="card-body">Timings may shift during fests & exams, but generally:</p>
+              </div>
+              <div class="pill-icon">
+                <i class="ri-time-line"></i>
+              </div>
+            </div>
+
+            <div class="office-hours">
+              <div class="oh-row">
+                <span>Mon – Fri</span>
+                <span>10:00 AM – 5:00 PM</span>
+              </div>
+              <div class="oh-row">
+                <span>Saturday</span>
+                <span>As per schedule / events</span>
+              </div>
+              <div class="oh-row">
+                <span>Sunday</span>
+                <span>Usually offline</span>
+              </div>
+            </div>
+
+            <p class="office-note">
+              Best time to catch us in person: <strong>shortly before / after lectures</strong> or during scheduled
+              ACM activities.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="section-divider reveal"></div>
+
+      <!-- FAQ SECTION -->
+      <div class="faq-section reveal">
+        <h3 class="faq-title">Quick FAQs before you mail us</h3>
+        <p class="faq-subtitle">
+          Here are some things people usually ask TCET ACM. Saves you a message (or two) 🙂
+        </p>
+
+        <div class="faq-grid">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do I need to be a pro coder to be part of TCET ACM?</span>
+              <i class="ri-add-line"></i>
+            </button>
+            <div class="faq-answer">
+              Not at all. We have members from all skill levels — from “first time opening VS Code” to “CP grind
+              machine”. Curiosity matters more than expertise.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can non-CS/IT branches attend ACM events?</span>
+              <i class="ri-add-line"></i>
+            </button>
+            <div class="faq-answer">
+              Yes! Unless a specific event mentions restrictions, most ACM activities are open to all tech-interested
+              students at TCET.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do external speakers / companies collaborate with TCET ACM?</span>
+              <i class="ri-add-line"></i>
+            </button>
+            <div class="faq-answer">
+              Just mail us your idea at <strong>acmtcet8@gmail.com</strong> with a short intro, topic and preferred
+              dates. The core team will get back after discussing feasibility.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Will someone respond if I DM TCET ACM on Instagram?</span>
+              <i class="ri-add-line"></i>
+            </button>
+            <div class="faq-answer">
+              Yes, but for anything formal or time-sensitive, email is still the best channel.
+              Social DMs are great for quick questions, event doubts and casual interactions.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIAL STRIP -->
+      <div class="social-strip reveal">
+        <span class="social-strip-label">
+          Stay in the TCET ACM loop:
+        </span>
+        <div class="social-strip-links">
+          <a href="https://www.instagram.com/tcet_acm" target="_blank">
+            <i class="ri-instagram-line"></i> Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/acmtcet" target="_blank">
+            <i class="ri-linkedin-box-fill"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        © <span id="yearSpan"></span> TCET ACM Student Chapter – Thakur College of Engineering and Technology (TCET).
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/tcet_acm" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.linkedin.com/in/acmtcet" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
