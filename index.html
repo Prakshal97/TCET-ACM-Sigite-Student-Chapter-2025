@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TCET ACM Student Chapter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Page Transition -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav-blur">
+    <div class="container nav-inner">
+      
+      <div class="nav-left">
+        <div class="logo-circle">
+          <img src="acm-logo.jpg" class="logo-img" />
+        </div>
+
+        <div class="logo-text">
+          <span>TCET ACM</span>
+          <span>SIGITE Student Chapter</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="projects.html">Achievements</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html">
+          <button class="btn btn-ghost"><i class="ri-mail-line"></i> Join ACM</button>
+        </a>
+
+        <button class="nav-menu-btn" id="navToggle">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- MOBILE NAV -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="projects.html">Achievements</a>
+      <a href="team.html">Team</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+
+      <a href="contact.html">
+        <button class="btn btn-primary" style="width:100%;margin-top:6px;">Become a Member</button>
+      </a>
+    </div>
+  </header>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner"><div class="neon-spinner"></div></div>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-inner">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <i class="ri-global-line"></i>
+          TCET ACM Student Chapter
+        </div>
+
+        <h1 class="hero-title">
+          A student-powered ACM community
+          <span class="accent">building the next era of innovation at TCET.</span>
+        </h1>
+
+        <p class="hero-desc">
+          TCET ACM is a vibrant tech community shaping future-ready engineers through projects, events,
+          mentorship, innovation and leadership.
+        </p>
+
+        <div class="hero-actions">
+          <a href="contact.html"><button class="btn btn-primary">Reach out to TCET ACM now <i class="ri-arrow-right-up-line"></i></button></a>
+          <a href="events.html"><button class="btn btn-ghost"><i class="ri-calendar-event-line"></i> Explore Our Events</button></a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item"><i class="ri-group-line"></i> 200+ members</div>
+          <div class="hero-meta-item"><i class="ri-macbook-line"></i> 12+ annual events</div>
+        </div>
+      </div>
+
+      <!-- RIGHT → IMAGE -->
+      <div class="hero-right">
+        <img src="Landingimage.png" class="hero-showcase-img" alt="TCET ACM Showcase" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- IMAGE STRIP (between Hero & About) -->
+<!-- IMAGE MARQUEE STRIP (3 images, infinite scrolling) -->
+ <div class="image-marquee-strip">
+  <div class="marquee-content">
+    <div class="marquee-group" >
+      <img src="gallery1.jpeg" alt="ACM Event Image 1" />
+      <img src="gallery2.jpeg" alt="ACM Event Image 2" />
+      <img src="gallery3.jpeg" alt="ACM Event Image 3" />
+    </div>
+    <div class="marquee-group">
+      <img src="gallery1.jpeg" alt="ACM Event Image 1" />
+      <img src="gallery2.jpeg" alt="ACM Event Image 2" />
+      <img src="gallery3.jpeg" alt="ACM Event Image 3" />
+    </div>
+  </div>
+</div>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label"><i class="ri-information-line"></i> About</div>
+
+      <h2 class="section-title">A global ACM network, rooted at TCET.</h2>
+
+      <p class="section-subtitle">
+        ACM is the world’s largest computing society. At TCET, our student chapter gives learners a place
+        to collaborate, build, experiment and grow alongside mentors.
+      </p>
+
+      <div class="grid about-grid">
+        
+        <div class="reveal">
+          <p class="highlight">
+            Established in <strong>2001</strong>, TCET ACM empowers students through peer learning,
+            events, hackathons, projects and mentorship.
+          </p>
+
+          <div class="stats-row">
+            <div class="stat-box"><h3>200+</h3><p>Members</p></div>
+            <div class="stat-box"><h3>12+</h3><p>Events / Year</p></div>
+            <div class="stat-box"><h3>6+</h3><p>Projects</p></div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <div class="card-title">Our Pillars</div>
+                <p class="card-body">We grow together through consistency and community.</p>
+              </div>
+              <div class="pill-icon"><i class="ri-pulse-line"></i></div>
+            </div>
+
+            <ul class="card-body">
+              <li> <strong>Learn</strong> – Workshops & sessions</li>
+              <li> <strong>Build</strong> – Hackathons & projects</li>
+              <li> <strong>Connect</strong> – Alumni & industry</li>
+              <li> <strong>Lead</strong> – Student leadership roles</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="yearSpan"></span> TCET ACM</div>
+
+      <div class="footer-social">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>

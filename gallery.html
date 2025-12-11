@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gallery – TCET ACM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Page transition -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav-blur">
+    <div class="container nav-inner">
+
+      <div class="nav-left">
+        <div class="logo-circle">
+          <img src="acm-logo.jpg" class="logo-img" alt="ACM Logo" />
+        </div>
+        <div class="logo-text">
+          <span>ACM Student Chapter</span>
+          <span>Thakur College of Engg. & Tech.</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="projects.html">Achievements</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html" style="color:#fff;">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html">
+          <button class="btn btn-ghost"><i class="ri-mail-line"></i> Join ACM</button>
+        </a>
+        <button class="nav-menu-btn" id="navToggle"><i class="ri-menu-line"></i></button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Nav -->
+    <div class="nav-mobile" id="navMobile">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="projects.html">Achievements</a>
+      <a href="team.html">Team</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+
+      <a href="contact.html">
+        <button class="btn btn-primary" style="width:100%;margin-top:6px;">Become a Member</button>
+      </a>
+    </div>
+  </header>
+
+  <!-- PRELOADER -->
+  <div id="preloader"><div class="neon-spinner"></div></div>
+
+  
+  <!-- SECTION -->
+  <section id="gallery">
+    <div class="container reveal">
+
+      <div class="section-label"><i class="ri-image-line"></i> Gallery</div>
+      <h2 class="section-title">Frames from ACM TCET moments.</h2>
+      <p class="section-subtitle">
+        Memories from events, visits, fests and team interactions.
+      </p>
+
+      <!-- Neon Divider -->
+      <div class="neon-divider"></div>
+
+      <!-- GALLERY GRID -->
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+  <img src="gallery1.jpeg" data-desc="First-year ACM orientation session" alt="">
+</div>
+        <div class="gallery-item"><img src="gallery2.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery3.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery4.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery5.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery6.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery7.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery8.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="gallery9.jpeg" alt=""></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- LIGHTBOX (fullscreen popup) -->
+  <div id="lightboxOverlay">
+  <span id="lightboxClose"><i class="ri-close-line"></i></span>
+
+  <div class="lightbox-content">
+    <img id="lightboxImg" src="gallery1.jpeg" alt="">
+    <p id="lightboxDesc"></p>
+  </div>
+</div>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="yearSpan"></span> ACM Student Chapter – Thakur College of Engineering and Technology (TCET).</div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/tcet_acm" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.linkedin.com/in/acmtcet" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>

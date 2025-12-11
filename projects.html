@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Achievements & Projects – TCET ACM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Page Transition -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav-blur">
+    <div class="container nav-inner">
+
+      <div class="nav-left">
+        <div class="logo-circle">
+          <img src="acm-logo.jpg" alt="Logo" class="logo-img" />
+        </div>
+        <div class="logo-text">
+          <span>TCET ACM</span>
+          <span>Student Chapter</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="projects.html" style="color:#fff;">Achievements</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="contact.html">
+          <button class="btn btn-ghost"><i class="ri-mail-line"></i> Reach Out</button>
+        </a>
+        <button class="nav-menu-btn" id="navToggle"><i class="ri-menu-line"></i></button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- PRELOADER -->
+  <div id="preloader"><div class="neon-spinner"></div></div>
+
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="projects">
+    <div class="container reveal">
+
+      <div class="section-label"><i class="ri-trophy-line"></i> Achievements</div>
+      <h2 class="section-title">Our milestones & recognitions.</h2>
+      <p class="section-subtitle">
+        Competitions, Hackathons, Research, Certifications — everything our chapter is proud of.
+      </p>
+
+      <div class="neon-divider"></div>
+
+      <div class="project-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card" data-desc="Rank 1 – PixxleHack Webathon. Awarded for UI/UX and Functional Prototype.">
+          <img src="winner.jpeg" alt="Project Thumbnail">
+          <div class="project-content">
+            <h3>Winner - Coherence - 2025 Blockchain Domain</h3>
+            <div class="tags">
+              <span class="tag">Blockchain </span>
+              <span class="tag">Web Dev</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card" data-desc="AI-based smart assistant created during ACM Research Sprint.">
+          <img src="finalist.jpeg" alt="Project Thumbnail">
+          <div class="project-content">
+            <h3>Health - Guard Ai : Predict Protect Prevent</h3>
+            <div class="tags">
+              <span class="tag">AI</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card" data-desc="Industrial automation dashboard created during Automation Expo Visit.">
+          <img src="olympiad.jpeg" alt="Project Thumbnail">
+          <div class="project-content">
+            <h3>Secured 19th rank in national level Maths-Olympiad</h3>
+            <div class="tags">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Mathematician</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightboxOverlay">
+    <span id="lightboxClose"><i class="ri-close-line"></i></span>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+      <p id="lightboxDesc"></p>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="yearSpan"></span> TCET ACM Student Chapter</div>
+      <div class="footer-social">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
